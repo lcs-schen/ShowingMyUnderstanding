@@ -38,6 +38,48 @@ canvas.drawShapesWithBorders = false
 canvas.defaultLineWidth = 5
 
 // Add your code below... remember to use comments to indicate your intent
+
+canvas.fillColor=Color.black
+canvas.drawRectangle(centreX: 150, centreY: 150, width: 300, height: 300)
+
+// green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawEllipse(centreX: 75, centreY: 175, width: 100, height: 100)
+
+// yellow
+canvas.fillColor = Color(hue: 60, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawEllipse(centreX: 125, centreY: 175, width: 100, height: 100)
+
+// red
+canvas.fillColor = Color(hue: 0, saturation: 100, brightness: 90, alpha: 100)
+canvas.drawEllipse(centreX: 175, centreY: 175, width: 100, height: 100)
+
+// blue
+canvas.fillColor = Color(hue: 240, saturation: 100, brightness: 90, alpha: 100)
+canvas.drawEllipse(centreX: 225, centreY: 175, width: 100, height: 100)
+
+// green semi-transparent
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 50)
+canvas.drawEllipse(centreX: 75, centreY: 175, width: 100, height: 100)
+
+// yellow semi-transparent
+canvas.fillColor = Color(hue: 60, saturation: 80, brightness: 90, alpha: 50)
+canvas.drawEllipse(centreX: 125, centreY: 175, width: 100, height: 100)
+
+// red semi-transparent
+canvas.fillColor = Color(hue: 0, saturation: 100, brightness: 90, alpha: 50)
+canvas.drawEllipse(centreX: 175, centreY: 175, width: 100, height: 100)
+
+// blue semi-transparent
+canvas.fillColor = Color(hue: 240, saturation: 100, brightness: 90, alpha: 50)
+canvas.drawEllipse(centreX: 225, centreY: 175, width: 100, height: 100)
+
+// green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawRectangle(bottomLeftX: 70, bottomLeftY: 50, width: 5, height: 100)
+
+
+
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
