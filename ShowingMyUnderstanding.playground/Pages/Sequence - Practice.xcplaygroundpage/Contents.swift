@@ -76,9 +76,19 @@ canvas.drawEllipse(centreX: 225, centreY: 175, width: 100, height: 100)
 
 // green
 canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 100)
-canvas.drawRectangle(bottomLeftX: 70, bottomLeftY: 50, width: 5, height: 100)
+canvas.drawRectangle(bottomLeftX: 70, bottomLeftY: 25, width: 5, height: 100)
 
+// yellow
+canvas.fillColor = Color(hue: 60, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawRectangle(bottomLeftX: 120, bottomLeftY: 25, width: 5, height: 100)
 
+// red
+canvas.fillColor = Color(hue: 0, saturation: 100, brightness: 90, alpha: 100)
+canvas.drawRectangle(bottomLeftX: 170, bottomLeftY: 25, width: 5, height: 100)
+
+// blue
+canvas.fillColor = Color(hue: 240, saturation: 100, brightness: 90, alpha: 100)
+canvas.drawRectangle(bottomLeftX: 220, bottomLeftY: 25, width: 5, height: 100)
 
 /*:
  ## Template code
